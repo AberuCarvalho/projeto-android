@@ -12,12 +12,12 @@
 
 @font-face {
     font-family: Android;
-    src: url('idroid.otf') format('opentype');
+    src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
 :root{
-    --fonte-padrão: arial, helvetica, sans-serif, verdana;
+    --fonte-padrão: arial, helvetica, sa    ns-serif, verdana;
     --fonte-destaque: 'Bebas Neue', cursive, sans-serif;
     --fonte-android: 'Android', cursive;
 
@@ -62,7 +62,7 @@ header > p{
     color: white;
     max-width: 600px;
     margin: auto;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.329);
